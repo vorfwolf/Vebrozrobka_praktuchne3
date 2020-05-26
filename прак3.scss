@@ -1,0 +1,138 @@
+ol {
+    u {
+        background-color: rgb(241, 253, 128);;
+    }
+    li {
+        background-color: rgb(13, 255, 194);
+    }
+}
+
+@mixin box($width) {
+    font-weight: 500;
+    font-size: 125%;
+    border: $width;
+    padding: 20px;
+  }
+  li {
+    @include box(2px);
+  }
+  u {
+    @include box(2px); 
+  }
+
+$font-size: 100%;
+$lime-color: rgb(129, 255, 11);
+$m-g: 0 auto;
+
+.color1 {
+  font-size: $font-size;
+  color: $lime-color;
+  margin: $m-g;
+}
+
+#id7 {
+
+    color: rgb(238, 32, 159);
+
+    margin: 0 auto;
+
+}
+
+#id8 {
+    
+    font-size: 150%;
+
+}
+
+#id1{
+
+    color: rgb(35, 57, 255);
+
+    font-size: 125%
+
+}
+
+#id2{
+
+    color: rgb(131, 94, 233);
+
+    font-size: 150%
+
+}
+
+#id3{
+
+    color: mediumseagreen;
+
+    font-size: 125%
+
+}
+
+#id4{
+
+    color: rgb(231, 255, 11);
+
+    font-size: 150%
+
+}
+
+#id5{
+
+    color: rgb(235, 11, 255);
+
+    font-size:130%
+
+}
+
+#id6{
+
+    color: rgb(11, 255, 105);
+
+    font-size:130%
+
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        width: 30px;
+    }
+    .my_img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        width: 30px;
+    }
+    .my_img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        width: 30px;
+    }
+    .my_img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        width: 30px;
+    }
+    .my_img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        width: 30px;
+    }
+    .my_img{
+        width: 100%;
+    }
+}

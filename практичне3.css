@@ -1,0 +1,116 @@
+ol u {
+  background-color: #f1fd80;
+}
+
+ol li {
+  background-color: #0dffc2;
+}
+
+li {
+  font-weight: 500;
+  font-size: 125%;
+  border: 2px;
+  padding: 20px;
+}
+
+u {
+  font-weight: 500;
+  font-size: 125%;
+  border: 2px;
+  padding: 20px;
+}
+
+.color1 {
+  font-size: 100%;
+  color: #81ff0b;
+  margin: 0 auto;
+}
+
+#id7 {
+  color: #ee209f;
+  margin: 0 auto;
+}
+
+#id8 {
+  font-size: 150%;
+}
+
+#id1 {
+  color: #2339ff;
+  font-size: 125%;
+}
+
+#id2 {
+  color: #835ee9;
+  font-size: 150%;
+}
+
+#id3 {
+  color: mediumseagreen;
+  font-size: 125%;
+}
+
+#id4 {
+  color: #e7ff0b;
+  font-size: 150%;
+}
+
+#id5 {
+  color: #eb0bff;
+  font-size: 130%;
+}
+
+#id6 {
+  color: #0bff69;
+  font-size: 130%;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 30px;
+  }
+  .my_img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  header {
+    width: 30px;
+  }
+  .my_img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    width: 30px;
+  }
+  .my_img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    width: 30px;
+  }
+  .my_img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    width: 30px;
+  }
+  .my_img {
+    width: 100%;
+  }
+}
+
+table {
+  background-color: #fc540d;
+}
+/*# sourceMappingURL=практичне3.css.map */
